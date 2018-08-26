@@ -37,4 +37,10 @@
         android:title="@string/volume_rocker_music_controls_title"
         android:defaultValue="false" />
 
+	<com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="toast_icon"
+        android:title="@string/toast_icon_title"
+        android:summary="@string/toast_icon_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
