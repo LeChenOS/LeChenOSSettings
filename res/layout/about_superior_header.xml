@@ -23,5 +23,6 @@
            android:layout_height="100dp"
            android:src="@drawable/superior"
            android:scaleType="centerInside"
-           android:adjustViewBounds="true" />
+           android:adjustViewBounds="true"
+		   android:layout_marginTop="10dp" />
 </LinearLayout>
