@@ -41,7 +41,7 @@
         android:summary="@string/lock_clock_font_summary"
         android:persistent="false" />
 
-    <SwitchPreference
+    <com.superior.settings.preferences.SecureSettingSwitchPreference
         android:key="fingerprint_success_vib"
         android:title="@string/fprint_sucess_vib_title"
         android:summary="@string/fprint_sucess_vib_summary"
