@@ -50,7 +50,7 @@
         android:summary="@string/lock_date_font_summary"
         android:persistent="false" />
 
-    <com.superior.settings.preferences.SecureSettingSwitchPreference
+    <SwitchPreference
         android:key="fingerprint_success_vib"
         android:title="@string/fprint_sucess_vib_title"
         android:summary="@string/fprint_sucess_vib_summary"
