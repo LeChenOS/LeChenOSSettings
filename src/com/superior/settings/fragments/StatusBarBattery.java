@@ -52,14 +52,14 @@ public class StatusBarBattery extends SettingsPreferenceFragment implements
                 (ListPreference) findPreference(SHOW_BATTERY_PERCENT);
 
         int batteryShowPercent = Settings.System.getInt(resolver,
-                Settings.System.SHOW_BATTERY_PERCENT, 0);
+                Settings.System.SHOW_BATTERY_PERCENT, 1);
         mStatusBarBatteryShowPercent.setValue(String.valueOf(batteryShowPercent));
         mStatusBarBatteryShowPercent.setSummary(mStatusBarBatteryShowPercent.getEntry());
         mStatusBarBatteryShowPercent.setOnPreferenceChangeListener(this);
 
         mStatusBarBattery = (ListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
          int batteryStyle = Settings.Secure.getInt(resolver,
-                Settings.Secure.STATUS_BAR_BATTERY_STYLE, 0);
+                Settings.Secure.STATUS_BAR_BATTERY_STYLE, 1);
         mStatusBarBattery.setValue(String.valueOf(batteryStyle));
         mStatusBarBattery.setSummary(mStatusBarBattery.getEntry());
         enableStatusBarBatteryDependents(batteryStyle);
