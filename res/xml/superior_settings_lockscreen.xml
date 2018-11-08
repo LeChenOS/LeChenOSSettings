@@ -26,12 +26,6 @@
                 android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
     </Preference>
 
-    <com.superior.settings.preferences.SystemSettingSwitchPreference
-        android:key="lockscreen_battery_info"
-        android:title="@string/lockscreen_battery_info_title"
-        android:summary="@string/lockscreen_battery_info_summary"
-        android:defaultValue="true" />
-
     <ListPreference
         android:key="lock_clock_fonts"
         android:title="@string/lock_clock_font_title"
@@ -63,9 +57,9 @@
         android:defaultValue="false" />
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
-        android:key="double_tap_sleep_lockscreen"
-        android:title="@string/double_tap_to_sleep_lockscreen_title"
-        android:summary="@string/double_tap_to_sleep_lockscreen_summary"
+        android:key="lockscreen_battery_info"
+        android:title="@string/lockscreen_battery_info_title"
+        android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
