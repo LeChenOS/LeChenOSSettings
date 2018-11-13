@@ -16,41 +16,13 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="superior_settings_title">Superior Settings</string>
+    <string name="superior_settings_title">LeChenOS Settings</string>
     <string name="superior_dashboard_summary">Features Hub</string>
 	
 	<!-- ROM Info -->
     <string name="superior_about_info">About Project</string>
     <string name="superior_about_info_summary_title">About Team</string>
-    <string name="superior_about_info_summary">Superior OS is a Custom ROM based on AOSP, with some most required minimal features, the main aim of this ROM is to deliver light speed performance,smoothness and good battery backup.</string>
-	
-	<!-- Dev Info -->
-    <string name="devs_header">Developers</string>
-    <string name="maintainers_header">Maintainers</string>
-    <string name="maintainers_header_summary">These are the Official Devices Maintainers...</string>
-    <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev1_description">Founder/Developer, Whyred Maintainer</string>
-    <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">Core Team/Developer, Land Maintainer</string>
-	<string name="dev_3">Pavan Patel</string>
-    <string name="dev3_description">Core Team/Designer, Land Maintainer</string>
-	<string name="dev_4">Titus Joseph</string>
-    <string name="dev4_description">Designer</string>
-	
-	<!-- Maintainer Info -->
-    <string name="device_xiaomi">Xiaomi</string>
-    <string name="device_asus">Asus</string>
-    <string name="device_motorola">Motorola</string>
-    <string name="mido_maintainer">Abdulgalim</string>
-    <string name="mido_maintainer_description">Redmi Note 4</string>
-    <string name="potter_maintainer">Ashwin Prakash</string>
-    <string name="potter_maintainer_description">Moto G5 Plus</string>
-    <string name="santoni_maintainer">Prakash_S</string>
-    <string name="santoni_maintainer_description">Redmi 4/4X</string>
-    <string name="X00TD_maintainer">Priyanshu Pandey</string>
-    <string name="X00TD_maintainer_description">Zenfone Max Pro M1</string>
-    <string name="rolex_maintainer">Arpon Sarkar</string>
-    <string name="rolex_maintainer_description">Redmi 4A</string>
+    <string name="superior_about_info_summary">LeChenOS is a Custom ROM based on AOSP, with some most required minimal features, the main aim of this ROM is to deliver light speed performance,smoothness and good battery backup.</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
